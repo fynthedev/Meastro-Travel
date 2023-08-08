@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meastro Travel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Meastro Travel</h1>
+    <nav>
+      <ul>
+        <li><a href="#" class="btn">Home</a></li>
+        <li><a href="#about" class="btn">About</a></li>
+        <li><a href="#services" class="btn">Local Routes</a></li>
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="banner">
+      <div class="banner-text">
+        <h2>Meastro Travel</h2>
+        <p>Safe, reliable and frequent travel for your commute.</p>
+        <a href="#services" class="btn">View Services</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Maestro Travel</h2>
+      <p>Welcome to Maestro Travel, your trusted local bus company in Warwickshire!</p>
+        <p>At Maestro Travel, we are committed to providing safe, reliable, and comfortable transportation services to our valued passengers. With years of experience in the industry, we have become a leading name in the region for quality bus services.</p>
+        <p>Our dedicated team of professional drivers and staff are always ready to assist you on your journey, ensuring you have a pleasant and stress-free ride to your destination.</p>
+        <p>Why Choose Maestro Travel?</p>
+        <ul>
+          <li>Extensive Route Network: We cover a wide range of routes in and around Warwickshire, connecting you to major towns and cities.</li>
+          <li>Modern Fleet: Our buses are well-maintained, equipped with modern amenities, and adhere to the highest safety standards.</li>
+          <li>Affordable Fares: We offer competitive and affordable fares, making bus travel a cost-effective option for your daily commute or special trips.</li>
+          <li>Customer Satisfaction: Your satisfaction is our top priority. We continuously strive to exceed your expectations with exceptional service.</li>
+          <li>Community-Focused: As a local bus company, we are proud to be an active part of the Warwickshire community, supporting local initiatives and events.</li>
+        </ul>
+        <p>Whether you're a daily commuter, a student, or a visitor exploring the beauty of Warwickshire, we are here to make your journey enjoyable and hassle-free. Experience the convenience and comfort of traveling with Maestro Travel!</p>
+        <p>Thank you for choosing Maestro Travel for your transportation needs. We look forward to serving you on board soon!</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <div class="service-item">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Pre-delivery_Stagecoach_Dennis_Trident_Alexander_ALX400%2C_Dublin%2C_February_1999.jpg/2560px-Pre-delivery_Stagecoach_Dennis_Trident_Alexander_ALX400%2C_Dublin%2C_February_1999.jpg" alt="Bus Icon" >
+          <h3>Routes</h3>
+          <p>Experience the ease and convenience of our county routes, connecting key locations within Warwickshire's vibrant naturistic landscape. Hop on board and enjoy a hassle-free journey through the heart of the county</p>
+        </div>
+        <div class="service-item">
+          <img src="https://live.staticflickr.com/4146/4977391779_c982fb225c_b.jpg" alt="Ticket Icon">
+          <h3>Modern Buses</h3>
+          <p>Our state-of-the-art fleet of modern buses ensures a smooth and enjoyable ride, equipped with plush seating and advanced amenities. Experience the epitome of comfort as you travel with us.</p>
+        </div>
+        <div class="service-item">
+          <img src="https://live.staticflickr.com/4361/36605058764_79b5f8d65b_b.jpg" alt="Wi-Fi Icon">
+          <h3>Free Wi-Fi</h3>
+          <p>Enjoy uninterrupted browsing and stay connected with our complimentary onboard Wi-Fi, making your journeys productive and entertaining. Surf the web or catch up on work while you travel with us.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>To find travel where you need to go, please use this below:</h2>
+      <form action="reservation.php" method="post">
+        <div class="elem-group">
+          <input type="text" id="name" name="visitor_name" placeholder="Travel From" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <input type="email" id="email" name="visitor_email" placeholder="Travel To" required>
+        </div>
+        <button type="submit" class="btnnn">Find Travel</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Meastro Travel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
