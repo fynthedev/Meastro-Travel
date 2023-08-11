@@ -50,7 +50,7 @@ body {
     color: white;
     text-align: center;
     padding: 5vh 0;
-    height: 50vh;
+    height: 35vw;
     max-width: 100%;
     font-family: 'Brush Script MT', cursive;
   }
@@ -118,8 +118,8 @@ body {
   }
   
   .service-item img {
-    width: 8vw;
-    height: 8vw;
+    width: 17vw;
+    height: 14vw;
     margin-bottom: 1rem;
   }
   
